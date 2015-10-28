@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA4383C21BE08EE10005517D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4383C11BE08EE10005517D /* main.m */; };
+		DA4383C51BE08EE10005517D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4383C41BE08EE10005517D /* AppDelegate.m */; };
+		DA4383CB1BE08EE10005517D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA4383C91BE08EE10005517D /* Main.storyboard */; };
+		DA4383CD1BE08EE10005517D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA4383CC1BE08EE10005517D /* Assets.xcassets */; };
+		DA4383D01BE08EE10005517D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA4383CE1BE08EE10005517D /* LaunchScreen.storyboard */; };
+		DA4383E91BE0953F0005517D /* YLmainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4383E81BE0953F0005517D /* YLmainTabBarController.m */; };
+		DA4383F81BE096EC0005517D /* YLHallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4383F71BE096EC0005517D /* YLHallViewController.m */; };
+		DA4383FE1BE097510005517D /* YLDiscoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4383FD1BE097510005517D /* YLDiscoverController.m */; };
+		DA4384011BE0976C0005517D /* YLAwardController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4384001BE0976C0005517D /* YLAwardController.m */; };
+		DA4384041BE097960005517D /* YLloginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4384031BE097960005517D /* YLloginViewController.m */; };
+		DA7B6B941BE130FD001C0EA6 /* YLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7B6B931BE130FD001C0EA6 /* YLNavigationController.m */; };
+		DACAF0AE1BE1035A00BFE23E /* YLTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = DACAF0AD1BE1035A00BFE23E /* YLTabBar.m */; };
+		DACAF0B11BE10DB000BFE23E /* YLtabButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DACAF0B01BE10DB000BFE23E /* YLtabButton.m */; };
+		DACAF0B71BE119B200BFE23E /* YLFunBuyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DACAF0B61BE119B200BFE23E /* YLFunBuyViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DA4383BD1BE08EE10005517D /* 网易彩票.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "网易彩票.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA4383C11BE08EE10005517D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DA4383C31BE08EE10005517D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DA4383C41BE08EE10005517D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DA4383CA1BE08EE10005517D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA4383CC1BE08EE10005517D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA4383CF1BE08EE10005517D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA4383D11BE08EE10005517D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA4383E71BE0953F0005517D /* YLmainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLmainTabBarController.h; sourceTree = "<group>"; };
+		DA4383E81BE0953F0005517D /* YLmainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLmainTabBarController.m; sourceTree = "<group>"; };
+		DA4383F61BE096EC0005517D /* YLHallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLHallViewController.h; sourceTree = "<group>"; };
+		DA4383F71BE096EC0005517D /* YLHallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLHallViewController.m; sourceTree = "<group>"; };
+		DA4383FC1BE097510005517D /* YLDiscoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLDiscoverController.h; sourceTree = "<group>"; };
+		DA4383FD1BE097510005517D /* YLDiscoverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLDiscoverController.m; sourceTree = "<group>"; };
+		DA4383FF1BE0976C0005517D /* YLAwardController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLAwardController.h; sourceTree = "<group>"; };
+		DA4384001BE0976C0005517D /* YLAwardController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLAwardController.m; sourceTree = "<group>"; };
+		DA4384021BE097960005517D /* YLloginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLloginViewController.h; sourceTree = "<group>"; };
+		DA4384031BE097960005517D /* YLloginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLloginViewController.m; sourceTree = "<group>"; };
+		DA7B6B921BE130FD001C0EA6 /* YLNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLNavigationController.h; sourceTree = "<group>"; };
+		DA7B6B931BE130FD001C0EA6 /* YLNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLNavigationController.m; sourceTree = "<group>"; };
+		DACAF0AC1BE1035A00BFE23E /* YLTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLTabBar.h; sourceTree = "<group>"; };
+		DACAF0AD1BE1035A00BFE23E /* YLTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLTabBar.m; sourceTree = "<group>"; };
+		DACAF0AF1BE10DB000BFE23E /* YLtabButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLtabButton.h; sourceTree = "<group>"; };
+		DACAF0B01BE10DB000BFE23E /* YLtabButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLtabButton.m; sourceTree = "<group>"; };
+		DACAF0B51BE119B200BFE23E /* YLFunBuyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLFunBuyViewController.h; sourceTree = "<group>"; };
+		DACAF0B61BE119B200BFE23E /* YLFunBuyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLFunBuyViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA4383BA1BE08EE10005517D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA4383B41BE08EE10005517D = {
+			isa = PBXGroup;
+			children = (
+				DA4383BF1BE08EE10005517D /* 网易彩票 */,
+				DA4383BE1BE08EE10005517D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA4383BE1BE08EE10005517D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA4383BD1BE08EE10005517D /* 网易彩票.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA4383BF1BE08EE10005517D /* 网易彩票 */ = {
+			isa = PBXGroup;
+			children = (
+				DA4383DC1BE0925B0005517D /* Classes */,
+				DA4383DF1BE092D40005517D /* Others */,
+				DA4383C01BE08EE10005517D /* Supporting Files */,
+			);
+			path = "网易彩票";
+			sourceTree = "<group>";
+		};
+		DA4383C01BE08EE10005517D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA4383C11BE08EE10005517D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA4383D81BE091F10005517D /* 购彩大厅 Hall */ = {
+			isa = PBXGroup;
+			children = (
+				DA4383DD1BE0926A0005517D /* Controller */,
+				DA4383DB1BE0924A0005517D /* Model */,
+				DA4383D91BE091F20005517D /* View */,
+			);
+			name = "购彩大厅 Hall";
+			sourceTree = "<group>";
+		};
+		DA4383D91BE091F20005517D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		DA4383DB1BE0924A0005517D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		DA4383DC1BE0925B0005517D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DA4383E31BE093470005517D /* Main Controller */,
+				DA4383E21BE093430005517D /* 我的彩票 My Lottery */,
+				DA4383E11BE0933F0005517D /* 开奖信息 history */,
+				DA4383E01BE0933C0005517D /* 发现 DIscover */,
+				DA4383DE1BE092C70005517D /* 欢乐购 Ebuy */,
+				DA4383D81BE091F10005517D /* 购彩大厅 Hall */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		DA4383DD1BE0926A0005517D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DA4383F61BE096EC0005517D /* YLHallViewController.h */,
+				DA4383F71BE096EC0005517D /* YLHallViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		DA4383DE1BE092C70005517D /* 欢乐购 Ebuy */ = {
+			isa = PBXGroup;
+			children = (
+				DA4383F51BE095F20005517D /* Controller */,
+				DA4383F41BE095E90005517D /* View */,
+				DA4383F31BE095E40005517D /* Model */,
+			);
+			name = "欢乐购 Ebuy";
+			sourceTree = "<group>";
+		};
+		DA4383DF1BE092D40005517D /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				DA4383C31BE08EE10005517D /* AppDelegate.h */,
+				DA4383C41BE08EE10005517D /* AppDelegate.m */,
+				DA4383C91BE08EE10005517D /* Main.storyboard */,
+				DA4383CC1BE08EE10005517D /* Assets.xcassets */,
+				DA4383CE1BE08EE10005517D /* LaunchScreen.storyboard */,
+				DA4383D11BE08EE10005517D /* Info.plist */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		DA4383E01BE0933C0005517D /* 发现 DIscover */ = {
+			isa = PBXGroup;
+			children = (
+				DA4383F21BE095D90005517D /* Controller */,
+				DA4383F11BE095D40005517D /* View */,
+				DA4383F01BE095CF0005517D /* Model */,
+			);
+			name = "发现 DIscover";
+			sourceTree = "<group>";
+		};
+		DA4383E11BE0933F0005517D /* 开奖信息 history */ = {
+			isa = PBXGroup;
+			children = (
+				DA4383EF1BE095C70005517D /* Controller */,
+				DA4383EE1BE095C30005517D /* View */,
+				DA4383ED1BE095BC0005517D /* Model */,
+			);
+			name = "开奖信息 history";
+			sourceTree = "<group>";
+		};
+		DA4383E21BE093430005517D /* 我的彩票 My Lottery */ = {
+			isa = PBXGroup;
+			children = (
+				DA4383EB1BE095A10005517D /* Controller */,
+				DA4383EC1BE095AD0005517D /* View */,
+				DA4383EA1BE0959A0005517D /* Model */,
+			);
+			name = "我的彩票 My Lottery";
+			sourceTree = "<group>";
+		};
+		DA4383E31BE093470005517D /* Main Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DA4383E61BE094DD0005517D /* Controller */,
+				DA4383E51BE094D70005517D /* View */,
+				DA4383E41BE094CF0005517D /* Model */,
+			);
+			name = "Main Controller";
+			sourceTree = "<group>";
+		};
+		DA4383E41BE094CF0005517D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		DA4383E51BE094D70005517D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DACAF0AC1BE1035A00BFE23E /* YLTabBar.h */,
+				DACAF0AD1BE1035A00BFE23E /* YLTabBar.m */,
+				DACAF0AF1BE10DB000BFE23E /* YLtabButton.h */,
+				DACAF0B01BE10DB000BFE23E /* YLtabButton.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		DA4383E61BE094DD0005517D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DA4383E71BE0953F0005517D /* YLmainTabBarController.h */,
+				DA4383E81BE0953F0005517D /* YLmainTabBarController.m */,
+				DA7B6B921BE130FD001C0EA6 /* YLNavigationController.h */,
+				DA7B6B931BE130FD001C0EA6 /* YLNavigationController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		DA4383EA1BE0959A0005517D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		DA4383EB1BE095A10005517D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DA4384021BE097960005517D /* YLloginViewController.h */,
+				DA4384031BE097960005517D /* YLloginViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		DA4383EC1BE095AD0005517D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		DA4383ED1BE095BC0005517D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		DA4383EE1BE095C30005517D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		DA4383EF1BE095C70005517D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DA4383FF1BE0976C0005517D /* YLAwardController.h */,
+				DA4384001BE0976C0005517D /* YLAwardController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		DA4383F01BE095CF0005517D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		DA4383F11BE095D40005517D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		DA4383F21BE095D90005517D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DA4383FC1BE097510005517D /* YLDiscoverController.h */,
+				DA4383FD1BE097510005517D /* YLDiscoverController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		DA4383F31BE095E40005517D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		DA4383F41BE095E90005517D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		DA4383F51BE095F20005517D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DACAF0B51BE119B200BFE23E /* YLFunBuyViewController.h */,
+				DACAF0B61BE119B200BFE23E /* YLFunBuyViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA4383BC1BE08EE10005517D /* 网易彩票 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA4383D41BE08EE10005517D /* Build configuration list for PBXNativeTarget "网易彩票" */;
+			buildPhases = (
+				DA4383B91BE08EE10005517D /* Sources */,
+				DA4383BA1BE08EE10005517D /* Frameworks */,
+				DA4383BB1BE08EE10005517D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "网易彩票";
+			productName = "网易彩票";
+			productReference = DA4383BD1BE08EE10005517D /* 网易彩票.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA4383B51BE08EE10005517D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YL;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Yuri;
+				TargetAttributes = {
+					DA4383BC1BE08EE10005517D = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = QH26FM56Z9;
+					};
+				};
+			};
+			buildConfigurationList = DA4383B81BE08EE10005517D /* Build configuration list for PBXProject "网易彩票" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA4383B41BE08EE10005517D;
+			productRefGroup = DA4383BE1BE08EE10005517D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA4383BC1BE08EE10005517D /* 网易彩票 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA4383BB1BE08EE10005517D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA4383D01BE08EE10005517D /* LaunchScreen.storyboard in Resources */,
+				DA4383CD1BE08EE10005517D /* Assets.xcassets in Resources */,
+				DA4383CB1BE08EE10005517D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA4383B91BE08EE10005517D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DACAF0B71BE119B200BFE23E /* YLFunBuyViewController.m in Sources */,
+				DA4383FE1BE097510005517D /* YLDiscoverController.m in Sources */,
+				DACAF0AE1BE1035A00BFE23E /* YLTabBar.m in Sources */,
+				DA4383C51BE08EE10005517D /* AppDelegate.m in Sources */,
+				DA4383C21BE08EE10005517D /* main.m in Sources */,
+				DA4384011BE0976C0005517D /* YLAwardController.m in Sources */,
+				DACAF0B11BE10DB000BFE23E /* YLtabButton.m in Sources */,
+				DA4383F81BE096EC0005517D /* YLHallViewController.m in Sources */,
+				DA4383E91BE0953F0005517D /* YLmainTabBarController.m in Sources */,
+				DA4384041BE097960005517D /* YLloginViewController.m in Sources */,
+				DA7B6B941BE130FD001C0EA6 /* YLNavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DA4383C91BE08EE10005517D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA4383CA1BE08EE10005517D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DA4383CE1BE08EE10005517D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA4383CF1BE08EE10005517D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA4383D21BE08EE10005517D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DA4383D31BE08EE10005517D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA4383D51BE08EE10005517D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "网易彩票/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "M-C.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DA4383D61BE08EE10005517D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "网易彩票/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "M-C.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA4383B81BE08EE10005517D /* Build configuration list for PBXProject "网易彩票" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA4383D21BE08EE10005517D /* Debug */,
+				DA4383D31BE08EE10005517D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA4383D41BE08EE10005517D /* Build configuration list for PBXNativeTarget "网易彩票" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA4383D51BE08EE10005517D /* Debug */,
+				DA4383D61BE08EE10005517D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA4383B51BE08EE10005517D /* Project object */;
+}
